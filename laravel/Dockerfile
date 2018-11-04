@@ -2,7 +2,7 @@ FROM udn/php
 
 
 ADD laravel /var/www/html/laravel
-WORKDIR /var/www/html/
+WORKDIR /var/www/html/laravel
 
 RUN mkdir -p /var/www/html/laravel/storage
 RUN mkdir -p /var/www/html/laravel/bootstrap/cache
